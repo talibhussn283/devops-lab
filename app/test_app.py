@@ -58,4 +58,3 @@ def test_stats_returns_full_info(client):
     assert "visits" in data
     assert "hostname" in data
     assert "redis_host" in data
-
